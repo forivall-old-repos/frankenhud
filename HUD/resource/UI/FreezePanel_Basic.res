@@ -87,10 +87,8 @@
 			"tall"			"48"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/freezecam_blue_bg"
+			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
-			"teambg_2"		"../hud/freezecam_blue_bg"	// Reversed, due to showing killer's name
-			"teambg_3"		"../hud/freezecam_red_bg"	// Reversed, due to showing killer's name
 		}
 
 		"FreezeLabel"
@@ -163,7 +161,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"c-30"
+		"xpos"			"r262"
 		"ypos"			"283"
 		"zpos"			"1"
 		"wide"			"256"
@@ -232,16 +230,16 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}		
+	}				
 	
 	"FreezePanelBase"	[$WIN32]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"c-38"
-		"ypos"			"193"		
+		"xpos"			"r270"
+		"ypos"			"93"		
 		"wide"			"267"		
-		"tall"			"100"		
+		"tall"			"200"		
 		"visible"		"1"
 	
 		"FreezePanelBG"
@@ -249,7 +247,7 @@
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"8"
-			"ypos"			"60"
+			"ypos"			"160"
 			"zpos"			"0"
 			"wide"			"256"
 			"tall"			"33"
@@ -257,8 +255,6 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
-			"teambg_2"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
-			"teambg_3"		"../hud/color_panel_red"	// Reversed, due to showing killer's name
 			
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
@@ -273,7 +269,7 @@
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
 			"xpos"			"40"
-			"ypos"			"62"
+			"ypos"			"162"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"12"
@@ -292,9 +288,9 @@
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"8"
-			"ypos"			"60"
+			"ypos"			"160"
 			"zpos"			"1"
-			"wide"			"131"
+			"wide"			"81"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
@@ -311,7 +307,7 @@
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
 			"xpos"			"61"
-			"ypos"			"73"
+			"ypos"			"173"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"18"
@@ -328,7 +324,7 @@
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
 			"xpos"			"49"
-			"ypos"			"74"
+			"ypos"			"174"
 			"zpos"			"0"
 			"wide"			"14"
 			"tall"			"14"
@@ -344,7 +340,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"xpos"			"0"		// FIXME
-			"ypos"			"30"
+			"ypos"			"130"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"
@@ -399,6 +395,23 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%nemesisname%"
+				"textAlignment"		"west"
+			}
+			"NemesisLabel2"
+			{	
+				"ControlName"		"Label"
+				"fieldName"		"NemesisLabel2"
+				"font"			"DefaultSmall"
+				"xpos"			"134"
+				"ypos"			"10"
+				"zpos"			"6"
+				"wide"			"112"
+				"tall"			"18"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"0"
+				"enabled"		"1"
+				"labelText"		"%nemesisadvice%"
 				"textAlignment"		"west"
 			}
 		}

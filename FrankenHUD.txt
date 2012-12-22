@@ -1,5 +1,5 @@
-FRANKENHUD RELEASE 44 - 100011 EDITION
---------------------------------------
+FRANKENHUD RELEASE 45 - SCARS EDITION
+-------------------------------------
 For Team Fortress 2 by Valve.
 
 INSTALL INSTRUCTIONS - READ THIS, SERIOUSLY
@@ -29,6 +29,15 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 45 - Scars Edition (17/08/2012)
+- Restyled the Buyback feature to fit with the FrankenHUD respawn timer
+- Fixed the respawn timer breaking outside of MvM
+- Resstyled the item meter for the Powerup Canteen
+- Fixed giant bot health counter in MvM by reverting an awful hacky thing from 36 releases ago(!) from the Target ID
+- Fixed a bug where the game would crash upon killcam if you were dominated
+- Fixed the "Select a Class" text on the MvM class select getting cut off
+- Moved the "upgraded class" icons on the MvM class select to their proper locations
+
 Release 44 - 100011 Edition (16/08/2012)
 DELETE ANY CURRENT FRANKENHUD INSTALLATION BEFORE INSTALLING TO ENSURE THAT NOTHING GETS CAUGHT IN THE BLADES
 - Added preliminary support for Mann Vs. Machine! SOME THINGS WILL LOOK TERRIBLE. I HAVE YET TO FIX THEM.

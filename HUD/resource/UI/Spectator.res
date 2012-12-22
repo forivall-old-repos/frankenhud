@@ -18,13 +18,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"0"	[$WIN32]
-		"tall_minmode"			"0"	[$WIN32]
 		"tall"			"104"	[$X360]		
-		"wide"			"0"
+		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"		"0"
 	}
 	"BottomBar"
@@ -32,16 +31,12 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"20" //"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r20"
-		"tall"			"0"//"70"	[$WIN32]
-		"tall_minmode"	"0"		
-		"tall"			"0"	[$X360]		
+		"ypos"			"r70"	[$WIN32]
+		"tall"			"0"	[$WIN32]	
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"		"0"
 	}
 	"bottombarblank"
@@ -52,23 +47,24 @@
 		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r0"
-		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
+		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
 		"tall"			"90"	[$X360]		
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"visible_minmode"		"0"
+		"enabled"		"1"
 		"tabPosition"		"0"
 	}
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"r75"	[$WIN32]
-		"wide"			"600"	[$WIN32]
+		"xpos"			"c-300"
+		"ypos"			"r75"
+		"wide"			"600"
 		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -77,22 +73,27 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"HudFontSpectator"
+		
+		if_mvm
+		{
+			"ypos"			"r135"
+		}
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"320"
-		"tall"			"30"
+		"xpos"			"c-300"
+		"ypos"			"r80"
+		"wide"			"600"
+		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSpectator"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
