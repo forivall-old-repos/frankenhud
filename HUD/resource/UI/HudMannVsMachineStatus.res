@@ -56,6 +56,18 @@
 		"enabled" 			"1"
 	}
 
+	"InWorldCurrencyPanel"
+	{
+		"ControlName"		"CInWorldCurrencyStatus"
+		"fieldName"			"InWorldCurrencyPanel"
+		"xpos"				"150"
+		"ypos"				"r17"
+		"wide"				"100"
+		"tall"				"100"
+		"visible" 			"1"
+		"enabled" 			"1"
+	}
+
 	"WarningSwoop"
 	{
 		"ControlName"	"CWarningSwoop"

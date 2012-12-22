@@ -1,4 +1,4 @@
-FRANKENHUD RELEASE 46 - REMEMBER TO BREATHE EDITION
+FRANKENHUD RELEASE 47 - THE BIGGEST UPDATE EVER EDITION
 ---------------------------------------------------
 For Team Fortress 2 by Valve.
 
@@ -29,6 +29,9 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 47 - The Biggest Update Ever Edition (24/09/2012)
+- Added the "credits still in-world" MvM HUD element. WOW.
+
 Release 46 - Remember To Breathe Edition (19/08/2012)
 - Fixed the Spy disguise panel's health display being too high up
 - Subtle adjustment to the ammo icon when healing a teammate in MvM
