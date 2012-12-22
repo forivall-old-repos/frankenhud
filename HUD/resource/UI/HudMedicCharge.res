@@ -273,5 +273,28 @@
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
-	}		
+	}
+	"IndividualChargesLabel"
+	{
+		"ControlName"   "CExLabel"
+		"fieldName"     "IndividualChargesLabel"
+		"xpos"          "30"
+		"xpos_minmode"  "40"
+		"ypos"          "24"
+		"ypos_minmode"  "11"
+		"zpos"          "2"
+		"wide"          "90"
+		"tall"          "15"
+		"autoResize"    "1"
+		"pinCorner"     "2"
+		"visible"       "1"
+		"enabled"       "1"
+		"tabPosition"   "0"
+		"labelText"         "#TF_IndividualUbercharges"
+		"labelText_minmode" "#TF_IndividualUberchargesMinHUD"
+		"textAlignment" "west"
+		"dulltext"      "0"
+		"brighttext"    "0"
+		"font"          "HudFontSmallest"
+	}
 }
