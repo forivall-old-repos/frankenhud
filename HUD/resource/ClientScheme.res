@@ -1080,9 +1080,9 @@ Scheme
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
-				"scalex"	"1.0"
+				"scalex"	"0.5"
 				"scalex_lodef"		"0.75"
-				"scaley"	"1.0"
+				"scaley"	"0.5"
 				"scaley_lodef"		"0.75"
 			}
 		}
@@ -3043,6 +3043,18 @@ Scheme
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
+		}
+
+		BackpackItemGrayedOut_Selected
+		{
+			"bordertype"                        "scalable_image"
+			"backgroundtype"                "2"
+			"color"                                        "Black"
+			"image"                                        "backpack_rect_selected"
+			"src_corner_height"                "24"                                // pixels inside the image
+			"src_corner_width"                "24"
+			"draw_corner_width"                "11"                                // screen size of the corners ( and sides ), proportional
+			"draw_corner_height"         "11"     
 		}
 		
 		BackpackItemBorder

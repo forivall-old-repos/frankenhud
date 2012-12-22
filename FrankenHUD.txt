@@ -1,5 +1,5 @@
-FRANKENHUD RELEASE 49 - NO WHAMMIES EDITION
--------------------------------------------
+FRANKENHUD RELEASE 50
+---------------------
 For Team Fortress 2 by Valve.
 
 INSTALL INSTRUCTIONS - READ THIS, SERIOUSLY
@@ -13,6 +13,9 @@ Mac OS X (thanks Braden!):
 Double click the zip file in Finder to extract the contents to a folder.
 Open the "HUD" folder inside this folder.
 Copy the contents of this folder (not the folder itself!) to user/Library/Application Support/Steam/SteamApps/[your account]/team fortress 2/tf/
+
+Linux:
+I honestly don't know. If you're in the Linux Steam beta, let me know! My email's at the bottom of the readme, as always.
 
 Extras Files:
 Extras are installed in much the same way as the main HUD. Check the readme files in their respective folders to get the details.
@@ -29,6 +32,12 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+RELEASE 50 - THE BIG FIVE-OH EDITION (5/12/12)
+Jesus, have I really been doing this for two and a half years?
+- Added some Big Picture support! Some things aren't as good as I would prefer (the Class Select in paticular), but Engie and Spy menus work great thanks to earlier work back in Release 33. Thanks to FlaminSarge for the help!
+- I, uh, I probably should have had something cooler ready for Version 50, huh.
+- Oh well. Live and learn, I guess.
+
 Release 49 - No Whammies Edition (1/11/12)
 - Fixed the Wheel of Fate display.
 

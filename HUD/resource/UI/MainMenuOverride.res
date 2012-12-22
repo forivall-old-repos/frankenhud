@@ -134,9 +134,13 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_halloween
+		if_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011"
+		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012"
 		}
 		if_fullmoon
 		{
@@ -274,6 +278,12 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
+
+		"navUp"			"PlayPVEButton"
+		"navDown"		"CharacterSetupButton"
+		"navLeft"		"ServerBrowserButton"
+		"navRight"		"TrainingButton"
+		"navToRelay"	"SubButton"
 		
 		"SubButton"
 		{
@@ -339,6 +349,12 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
+		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
+		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
+		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
 		
 		"MOTD_ShowButtonPanel_SB"
 		{
@@ -361,6 +377,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_show"
+			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -397,7 +414,11 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
-		
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
+		"navToRelay"	"MOTD_URLButton"		// when naving to this it auto navs to this child instead
+	
 		"MOTD_HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -449,6 +470,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+
+			"navDown"			"MOTD_URLButton"
+			"navActivate"		"<QuickplayButton"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"motd_hide"
@@ -638,6 +662,10 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"command"		"motd_viewurl"
+
+			"navUp"			"MOTD_CloseButton"
+			"navLeft"		"MOTD_PrevButton"
+			"navRight"		"MOTD_NextButton"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -668,6 +696,9 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_prev"
+
+			"navUp"			"MOTD_CloseButton"
+			"navRight"		"MOTD_URLButton"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -711,6 +742,9 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_next"
+
+			"navUp"			"MOTD_CloseButton"
+			"navLeft"		"MOTD_URLButton"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -747,7 +781,13 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
+		"navUp"			"MOTD_ShowButtonPanel"
+		"navDown"		"SettingsButton"
+		"navLeft"		"QuickplayButton"
+		"navRight"		"Notifications_Panel"
+		"navToRelay"	"Notifications_ShowButtonPanel_SB"
+	
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -803,7 +843,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+
 			"Command"		"noti_show"
+			"navActivate"	"<QuickplayButton"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -840,7 +882,13 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
-		
+
+		"navUp"			"MOTD_ShowButtonPanel"
+		"navDown"		"SettingsButton"
+		"navLeft"		"Notifications_ShowButtonPanel"
+		"navRight"		"MOTD_ShowButtonPanel"
+		"navToRelay"	"Notifications_CloseButton"
+			
 		"Notifications_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -861,10 +909,13 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+
+			"Command"		"noti_hide"
+			"navActivate"	"<QuickplayButton"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"noti_hide"
-			
+	
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -991,6 +1042,12 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
+
+		"navUp"			"PlayPVEButton"
+		"navDown"		"GeneralStoreButton"
+		"navLeft"		"CreateServerButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1050,6 +1107,11 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
+
+		"navUp"			"CharacterSetupButton"
+		"navDown"		"QuitButton"
+		"navRight"		"SteamWorkshopButton"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1109,6 +1171,12 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
+
+		"navUp"			"GeneralStoreButton"
+		"navDown"		"QuitButton"
+		"navLeft"		"ReplayBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1170,6 +1238,12 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
+
+		"navUp"			"TrainingButton"
+		"navDown"		"SteamWorkshopButton"
+		"navLeft"		"CharacterSetupButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1244,6 +1318,11 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
+
+		"navUp"			"ServerBrowserButton"
+		"navDown"		"ReplayBrowserButton"
+		"navRight"		"GeneralStoreButton"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1478,6 +1557,10 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
+
+		"navDown"		"PlayPVEButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1600,6 +1683,11 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
+
+		"navUp"			"QuickplayButton"
+		"navDown"		"ServerBrowserButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1659,8 +1747,13 @@
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
+
+		"navUp"			"PlayPVEButton"
+		"navDown"		"CharacterSetupButton"
+		"navRight"		"CreateServerButton"
+		"navToRelay"	"SubButton"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2046,46 +2139,6 @@
 		"scaleImage"	"1"
 	}	
 	
-"TF2SettingsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-77"
-		"ypos"			"437"
-		"zpos"			"3"
-		"wide"			"30"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"opentf2options"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"image_drawcolor"	"235 226 202 255" //"image_drawcolor"	"250 251 252 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"..\hud\ico_metal_mask"
-			"scaleImage"	"1"
-		}				
-	}		
-	
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2107,6 +2160,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"view_newuser_forums"
+
+		"navUp"			"SteamWorkshopButton"
+		"navLeft"		"QuitButton"
+		"navRight"		"AchievementsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
@@ -2149,6 +2206,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
+
+		"navUp"			"SteamWorkshopButton"
+		"navLeft"		"NewUserForumsButton"
+		"navRight"		"CommentaryButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
@@ -2191,6 +2252,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+
+		"navUp"			"SteamWorkshopButton"
+		"navLeft"		"AchievementsButton"
+		"navRight"		"CoachPlayersButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
@@ -2233,6 +2298,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
+
+		"navUp"			"SteamWorkshopButton"
+		"navLeft"		"CommentaryButton"
+		"navRight"		"ReportBugButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
@@ -2275,6 +2344,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine bug"
+
+		"navUp"			"SteamWorkshopButton"
+		"navLeft"		"CoachPlayersButton"
+		"navRight"		"SettingsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
@@ -2295,7 +2368,48 @@
 		}				
 	}
 
-		
+	"TF2SettingsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TF2SettingsButton"
+		"xpos"			"c-77"
+		"ypos"			"437"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"opentf2options"
+
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"image_drawcolor"	"235 226 202 255" //"image_drawcolor"	"250 251 252 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"..\hud\ico_metal_mask"
+			"scaleImage"	"1"
+		}				
+	}			
 	
 	"SettingsButton"
 	{
@@ -2320,6 +2434,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
+
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"ReportBugButton"
+		"navRight"		"TF2SettingsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
@@ -2338,7 +2456,7 @@
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 		}			
-	}		
+	}
 	
 	"QuitButton"
 	{
@@ -2363,6 +2481,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine quit"
+//		"Command"		"engine replay_confirmquit"
+
+		"navUp"			"ReplayBrowserButton"
+		"navRight"		"NewUserForumsButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
