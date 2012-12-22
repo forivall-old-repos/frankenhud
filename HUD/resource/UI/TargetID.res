@@ -129,6 +129,22 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}
+
+	"AmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"34"
+		"ypos"			"21"
+		"zpos"			"12"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_class_heavy"
+		"scaleImage"	"1"
+	}
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"

@@ -1,5 +1,5 @@
-FRANKENHUD RELEASE 43 - TOP OF THE WORLD, MA! EDITION
------------------------------------------------------
+FRANKENHUD RELEASE 44 - 100011 EDITION
+--------------------------------------
 For Team Fortress 2 by Valve.
 
 INSTALL INSTRUCTIONS - READ THIS, SERIOUSLY
@@ -29,6 +29,14 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 44 - 100011 Edition (16/08/2012)
+DELETE ANY CURRENT FRANKENHUD INSTALLATION BEFORE INSTALLING TO ENSURE THAT NOTHING GETS CAUGHT IN THE BLADES
+- Added preliminary support for Mann Vs. Machine! SOME THINGS WILL LOOK TERRIBLE. I HAVE YET TO FIX THEM.
+- Shifted around the order of some things in HudLayout to match the official HudLayout order for the sake of my sanity
+- Added some HudLayout stuff that had somehow fallen through the cracks over the years
+- Fixed a few tiny things relating to Special Delivery mode
+- This update is brought to you by Sublime Text 2's splitscreen mode, and by TF Wiki not uploading the diffs that would have made my life infinitely easier. Way to be, team!
+
 Release 43 - Top of the World, Ma! Edition (3/08/2012)
 - Added Highlander elements to Team Select.
 - Added item meter for the Flying Guillotine.

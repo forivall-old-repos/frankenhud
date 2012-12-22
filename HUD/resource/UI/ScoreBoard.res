@@ -48,6 +48,11 @@
 		"image"			"../hud/score_panel_blue_bg"
 		"image_lodef"	"../hud/score_panel_blue_bg_lodef"
 		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedScoreBG"
 	{
@@ -64,6 +69,11 @@
 		"image"			"../hud/score_panel_red_bg"
 		"image_lodef"	"../hud/score_panel_red_bg_lodef"
 		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"MainBG"
@@ -84,6 +94,12 @@
 		"image"			"../hud/score_panel_black_bg"
 		"image_lodef"	"../hud/score_panel_black_bg_lodef"
 		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"ypos"			"0"
+			"tall"			"662"
+		}
 	}							
 	"BlueTeamLabel"
 	{
@@ -102,6 +118,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamLabelDropShadow"
 	{
@@ -121,6 +142,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Black"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
 	"BlueTeamScore"
 	{
@@ -142,6 +168,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamScoreDropshadow"
 	{
@@ -164,6 +195,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
 	"BlueTeamPlayerCount"
 	{
@@ -181,6 +217,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamPlayerCountDropShadow"
 	{
@@ -199,6 +240,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Black"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}								
 	"RedTeamLabel"
 	{
@@ -216,6 +262,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedTeamLabelDropShadow"
 	{
@@ -234,6 +285,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Black"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}								
 	"RedTeamScore"
 	{
@@ -255,6 +311,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedTeamScoreDropshadow"
 	{
@@ -277,6 +338,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
 	"RedTeamPlayerCount"
 	{
@@ -294,6 +360,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 	"RedTeamPlayerCountDropShadow"
 	{
@@ -312,6 +383,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Black"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}						
 	"ServerLabel"
 	{
@@ -367,6 +443,11 @@
 		"autoresize"	"3"
 		"linespacing"	"17"
 		"fgcolor"		"blue"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedPlayerList"
 	{
@@ -389,6 +470,11 @@
 		"autoresize"	"3"
 		"linespacing"	"17"
 		"textcolor"		"red"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"VerticalLine"
 	{
@@ -410,6 +496,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Spectators"
 	{
@@ -447,6 +538,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
 	"ShadedBar"
 	{
@@ -468,6 +564,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	"ClassImage"
 	{
@@ -482,6 +583,11 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	"PlayerNameLabel"
 	{
@@ -499,6 +605,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	"PlayerNameLabelDropShadow"
 	{
@@ -517,6 +628,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Black"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}								
 	"HorizontalLine"
 	{
@@ -534,6 +650,11 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	"PlayerScoreLabel"
 	{
@@ -554,6 +675,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 
 	"LocalPlayerStatsPanel"
@@ -569,6 +695,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
 
 		"KillsLabel"
 		{
@@ -1261,6 +1392,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
 		"DuelingLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1453,5 +1589,23 @@
 		}		
 	}
 
-				
+	"MvMScoreboard"
+	{
+		"ControlName"		"CTFHudMannVsMachineScoreboard"
+		"fieldName"			"MvMScoreboard"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
+		"enabled"			"1"
+		
+		"verbose"			"1"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}	
 }

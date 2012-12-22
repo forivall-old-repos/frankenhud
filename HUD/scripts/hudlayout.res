@@ -118,6 +118,20 @@
 		"MeterBG"		"Gray"
 	}	
 
+	HudBossHealth
+	{
+		"fieldName"		"HudBossHealth"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-100"
+		"ypos"			"42"
+		"zpos"			"0"			// draw in front of ammo
+		"wide"			"200"
+		"tall"			"50"
+		"MeterFG"		"Red"
+		"MeterBG"		"Gray"
+	}	
+
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
@@ -270,6 +284,20 @@
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
 		"wide"		"640"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+
+	HudMannVsMachineStatus
+	{
+		"fieldName" "HudMannVsMachineStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
@@ -790,6 +818,17 @@
 		"tall"					"218"
 	}
 
+	PVEWinPanel
+	{
+		"fieldName"				"PVEWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-150"
+		"ypos"					"255"
+		"wide"					"300"
+		"tall"					"215"
+	}
+
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
@@ -852,6 +891,17 @@
 		"ypos"					"10"
 		"wide"					"292"
 		"tall"					"64"
+	}
+
+	"HudUpgradePanel"
+	{
+		"fieldName"		"HudUpgradePanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"c-200"
+		"ypos"			"260"
+		"wide"			"400"
+		"tall"			"160"		
 	}
 
 	"HudChat"
@@ -1156,6 +1206,13 @@
 		"wide"			"250"
 		"tall"			"160"
 	}
+
+	ReplayReminder
+	{
+		"fieldName"		"ReplayReminder"
+		"visible"		"0"
+		"enable"		"1"
+	}
 	
 	MainMenuAdditions
 	{
@@ -1169,17 +1226,6 @@
 		"tall"			"100"
 	}
 
-	NotificationQueuePanel
-	{
-		"fieldName"		"NotificationQueuePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"r155"
-		"ypos"			"r90"
-		"wide"			"200"
-		"tall"			"0"
-	}
-
 	CoachedByPanel
 	{
 		"fieldName"		"CoachedByPanel"
@@ -1191,6 +1237,28 @@
 		"tall"			"44"
 	}
 
+	ItemTestHUDPanel
+	{
+		"fieldName"		"ItemTestHUDPanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"5"
+		"ypos"			"10"
+		"wide"			"150"
+		"tall"			"44"
+	}
+
+	NotificationQueuePanel
+	{
+		"fieldName"		"NotificationQueuePanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"r155"
+		"ypos"			"r90"
+		"wide"			"200"
+		"tall"			"0"
+	}
+	
 	"CHudVote"
 	{
 		"fieldName"		"CHudVote"
@@ -1215,17 +1283,4 @@
 		"tall"			"150"
 	}
 
-	HudBossHealth
-	{
-		"fieldName"		"HudBossHealth"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-100"
-		"ypos"			"42"
-		"zpos"			"0"			// draw in front of ammo
-		"wide"			"200"
-		"tall"			"50"
-		"MeterFG"		"Red"
-		"MeterBG"		"Gray"
-	}		
 }

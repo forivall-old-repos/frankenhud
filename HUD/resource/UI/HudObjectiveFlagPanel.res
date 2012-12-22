@@ -37,6 +37,11 @@
 			"visible"	"0"
 		}
 
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -86,6 +91,11 @@
 			"visible"	"0"
 		}
 
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -109,6 +119,11 @@
 		"fgcolor"		"White"
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
 		{
 			"visible"	"0"
 		}
@@ -140,6 +155,11 @@
 			"visible"	"0"
 		}
 
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -167,6 +187,11 @@
 			"visible"	"0"
 		}
 
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -190,6 +215,11 @@
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
 		{
 			"visible"	"0"
 		}
@@ -262,6 +292,16 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 			
 	"PlayingToBG"
@@ -285,6 +325,16 @@
 		"draw_corner_height" 	"6"	
 		
 		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -373,6 +423,11 @@
 		"enabled"		"1"
 		
 		"if_hybrid"
+		{
+			"ypos"		"r80"
+		}
+
+		"if_specialdelivery"
 		{
 			"ypos"		"r80"
 		}

@@ -25,7 +25,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"		
 	}				
 	"StatusIcon"
 	{
@@ -40,5 +40,10 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"	
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
 	}	
 }
