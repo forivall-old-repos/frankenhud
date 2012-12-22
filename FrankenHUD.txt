@@ -1,4 +1,4 @@
-FRANKENHUD RELEASE 50
+FRANKENHUD RELEASE 51
 ---------------------
 For Team Fortress 2 by Valve.
 
@@ -22,7 +22,7 @@ Extras are installed in much the same way as the main HUD. Check the readme file
 
 Run TF2, exhale, wash your hands.
 
-If you see strange side-effects like the Damage text and the clock being invisible, then you didn't follow these instructions correctly!
+! ! ! IF THE DAMAGE AND TIMER NUMBERS ARE INVISIBLE, THEN YOU DIDN'T FOLLOW THESE INSTRUCTIONS CORRECTLY AND I WILL IGNORE YOU IF YOU TRY TO REPORT IT BECAUSE I'LL KNOW YOU DIDN'T READ THIS FILE. SERIOUSLY, DON'T DO THIS. TRY AGAIN. MAKE SURE THERE'S A CLIENTSCHEME.RES FILE IN YOUR RESOURCE FOLDER. IF THERE ISN'T, YOU SCREWED UP ! ! !
 
 If you see no differences, then check your TF folder for a "HUD" folder and move the files within to your TF folder. Then check yourself in for English classes.
 
@@ -32,6 +32,16 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 51 - Merry Whatever (20/12/12)
+- HOPEFULLY updated for the Mecha Update!
+- Tweaked the Status panel in MvM. Now the wave name should look right even on Wave 666. Only, what, four months late!
+- Enabled text wrapping on the "Winning Capture: ..." label in the victory box.
+- Added styling to the Spy's MvM Sapper recharge meter
+- Fixed the loadout buttons in the Quick-Switch menu.
+- Shoved the Respawn timer above the TargetID to avoid getting covered up on 3CP maps.
+- Removed the annoying grey box in non-minimalhud spectator mode! Finally!
+- Subtly adjusted install instructions in the readme to account for the majority of BS bug reports by the criminally illiterate.
+
 RELEASE 50 - THE BIG FIVE-OH EDITION (5/12/12)
 Jesus, have I really been doing this for two and a half years?
 - Added some Big Picture support! Some things aren't as good as I would prefer (the Class Select in paticular), but Engie and Spy menus work great thanks to earlier work back in Release 33. Thanks to FlaminSarge for the help!

@@ -35,8 +35,8 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"tall"			"0"	[$WIN32]	
+		"ypos"			"r0"
+		"tall"			"0"	
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -48,12 +48,10 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
+		"ypos"			"r0"
 		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"tall"			"0"
+		"tall_minmode"	"0"			
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -67,7 +65,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"
-		"ypos"			"r75"
+		"ypos"			"r125"
+		"ypos_minmode"		"r125"
 		"wide"			"600"
 		"tall"			"18"
 		"autoResize"		"0"
@@ -155,18 +154,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
+		"xpos"			"5"
+		"ypos"			"10"
+		"wide"			"60"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
@@ -179,16 +174,12 @@
 		"fieldName"		"SwitchCamModeLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"10"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"40"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]		
+		"wide"			"125"	[$WIN32]	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
@@ -199,17 +190,13 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"5"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
+		"ypos"			"20"	[$WIN32]	
 		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
@@ -221,16 +208,12 @@
 		"fieldName"		"CycleTargetFwdLabel"
 		"xpos"			"80"	[$WIN32]
 		"ypos"			"20"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"50"	[$X360]		
 		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
@@ -241,17 +224,13 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"xpos"			"5"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
+		"ypos"			"30"	[$WIN32]	
+		"wide"			"60"	[$WIN32]	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
@@ -262,17 +241,13 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"80"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"60"	[$X360]		
+		"ypos"			"30"	[$WIN32]	
 		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
