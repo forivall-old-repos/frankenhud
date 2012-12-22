@@ -23,6 +23,7 @@
 			"wide"			"166"
 			"tall"			"38"
 			"visible"		"1"
+			"ForceStereoRenderToFrameBuffer" "1"
 
 			"NemesisPanelBG"
 			{

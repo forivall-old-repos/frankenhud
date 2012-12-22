@@ -1,5 +1,5 @@
-FRANKENHUD RELEASE 47 - THE BIGGEST UPDATE EVER EDITION
----------------------------------------------------
+FRANKENHUD RELEASE 48 - LUNCH BREAK EDITION
+-------------------------------------------
 For Team Fortress 2 by Valve.
 
 INSTALL INSTRUCTIONS - READ THIS, SERIOUSLY
@@ -29,6 +29,10 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 48 - Lunch Break Edition (27/10/2012)
+- Added support for Scream Fortress 4.
+- This is pretty much completely untested - I just copied over the changes from the Wiki's patch diff. As a result, the Wheel of Doom HUD stuff might be placed weirdly.
+
 Release 47 - The Biggest Update Ever Edition (24/09/2012)
 - Added the "credits still in-world" MvM HUD element. WOW.
 

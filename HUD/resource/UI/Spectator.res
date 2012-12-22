@@ -11,6 +11,10 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
+        "specgui"
+        {
+
+        }
 	"topbar"
 	{
 		"ControlName"		"Panel"
