@@ -1,0 +1,358 @@
+FRANKENHUD RELEASE 42 - FRANKENHUGS EDITION
+-------------------------------------------
+For Team Fortress 2 by Valve.
+
+INSTALL INSTRUCTIONS - READ THIS, SERIOUSLY
+-------------------------------------------
+Windows Users:
+Open this zip file in your extraction program of choice. I personally use 7zip. If you don't have one, Windows Explorer should work fine.
+Open the "HUD" folder in the zip file.
+Move the contents of this folder (not the folder itself!) to steam\steamapps\[your account]\team fortress 2\tf
+
+Mac OS X (thanks Braden!):
+Double click the zip file in Finder to extract the contents to a folder.
+Open the "HUD" folder inside this folder.
+Copy the contents of this folder (not the folder itself!) to user/Library/Application Support/Steam/SteamApps/[your account]/team fortress 2/tf/
+
+Extras Files:
+Extras are installed in much the same way as the main HUD. Check the readme files in their respective folders to get the details.
+
+Run TF2, exhale, wash your hands.
+
+If you see strange side-effects like the Damage text and the clock being invisible, then you didn't follow these instructions correctly!
+
+If you see no differences, then check your TF folder for a "HUD" folder and move the files within to your TF folder. Then check yourself in for English classes.
+
+UNINSTALL INSTRUCTIONS
+----------------------
+Go to the above-mentioned TF folder, and delete the resource and script folders. Don't worry, Steam is smart and powered by science, and will cheerfully restore the default TF2 files.
+
+CHANGELOG
+---------
+Release 42 - FrankenHUGS Edition (28/06/2012)
+Welcome back, old friend. I was gone for a bit, but things are better now.
+- Redid the Main Menu to better fit Valve's precarious, constantly changing preferences.
+- Subtly shifted the bottom menu buttons to the left so as to actually be centered instead of slightly biased to the right
+- Shoved the "Crit Counter" Item Meter to the side a bit further, so as to avoid overlapping the Pyro's Mmmph meter when using the Grodbort set.
+- Updated to fit the Pyromania update! There might still be some issues, though, I haven't exactly tested thoroughly.
+
+Release 41 - Back To Kirkland Edition (16/12/2011)
+- Aded Full Moon and Christmas background support to main menu.
+- Added Item Meters for Pomson and Spycicle. I think.
+
+Release 40 - An Illusion And A Trap Edition (28/10/2011)
+- Updated the main menu to use the Halloween 2011 background.
+- Updated for elements in the Halloween 2011 update.
+
+Release 39 - Take U 4 A Ride Edition (21/10/2011)
+Further improvements to the new Class Select menu:
+-The Cancel button no longer looks like a "GO!" button from when Valve were experimenting with having the Loadout Preset buttons on the class select.
+-The backpack icon greys out nicely instead of just vanishing when Random or Cancel are highlighted.
+-Keyboard shortcuts are re-enabled.
+-Lowered the size of the player count numbers, to accomodate the "(MAX #)/(FULL)" label when Class Limits are on. Thanks CraigK for pointing this out!
+-Minor tweaks to element positioning that aren't really worth mentioning.
+
+And in the "other crap" catergory...
+- Redid the font definitions file based on the current one.
+- A minor, minor change to the main menu's behavior when Halloween mode is on.
+
+Release 38 - All Change! Edition (14/10/2011)
+- Updated for the Manniversary Update.
+- Completely redid the class select menus. Now they're a lot swisher!
+- Adjusted the Quick Switch menu to add the loadout preset buttons.
+- Restyled the Tutorial Video screen to match the Map Info/MOTD screens.
+- Updated the map loading screen a little bit.
+- Added the Steam Workshop button to the main menu.
+
+Release 37 - Sticky Jumped Edition (16/09/2011)
+- Damage popups from healing teammates are now the right colour.
+- Implemented the Hud Message widescreen fix from the September 15 patch.
+- Removed customised Tournament HUD. They have bugs and I have no idea how exactly to go about fixing them easily since I'm not in the comp scene.
+
+Release 36 - 240 Pages Of Badposting Edition (7/09/2011)
+- Changed the Strange item colour to match the latest patch.
+- Made the Extras folder a zip, to see if that helps with possible issues caused by OSX's default unzipper.
+
+Release 35 - My UI Is Augmented Edition (21/08/2011)
+- Fixed the Bazaar Bargain's crit counter. THIS TIME FOR SURE.
+- Added the crit counter for the Silverback revolver.
+- Added Iron and Copper.
+
+Release 34 - CakenHUD Edition (5/08/2011)
+- Restyled the alternate Build/Destroy menus the Pipboy brings along.
+- Added the Pipboy font from Fallout 3 for the Pipboy menus!
+- Fixed the Righteous Bison. I think.
+- Did a bit of work on the Tournament Spectator UI.
+
+Release 33 - Spring Cleaning Edition (1/08/2011)
+- Moved the Bazaar Bargain's head count so as to not overlap the other Item Effect Meters.
+- Added elements related to Xbox 360 controllers. Now the Build and Disguise menus will appear properly when using them.
+- Rewrote the readme's install instructions. Hopefully these will be easier to understand!
+
+Release 32 - Pigs In Space Edition (21/07/2011)
+- Added meters for the Soldier's new WETA/Comiccon weapons. Pew! Pew!
+
+Release 31 - Oopsie Edition (16/07/11)
+- Fixed the Bazaar Bargain's head count being a meter and not a counter. I think. I don't actually have one to test with.
+- Removed some leftover testing stuff that forced the Control Point capture counter to always read "x2"
+
+Release 30 - The Big Three-Oh Edition (13/07/11)
+- Further updated the Main Menu, restyling the View Promotional Codes button to fit in with the others.
+- Changed the TF2 Advanced Options button icon to something a little more fitting.
+- Fixed the colour of Kill-Eater item names (Strange Minigun etc.)
+- Messed around with the Control Points Objective HUD a bunch. Let me know if you like the changes or not!
+- Fixed outdated parts of the readme file.
+
+Release 29 - HEAL NO HALOS Edition (25/06/11)
+- Fixed the new ItemEffectMeters. Forgot to include them in the last release, DOY.
+- Tweaked the new Main Menu a bit to match the restyled lower buttons from Release 27.
+- Caused a violent community uproar that'll be forgotten in a week. Again. Must be nearly July.
+
+Release 28 - Free As In Hats Edition (24/06/11)
+...I should have saved that name for when the Linux port eventually arrived.
+- Updated to work with the Uber Update! ... The Über Update. The Euber Update?
+- Removed the Alt. Load Screen extra.
+YOU SHOULD UNINSTALL PREVIOUS VERSIONS OF FRANKENHUD BEFORE PROCEEDING TO ENSURE THAT NOTHING GETS CAUGHT IN THE BLADES AND CATCHES ALIGHT
+
+Release 27 - Abrupt Edition (5/20/11)
+- Restyled the main menu lower buttons to add the new Advanced Options menu.
+- Fixed for the May 20 update.
+
+Release 26 - Don't Talk! Watch! Edition (5/6/11)
+- Updated to work with the Replay Update.
+- Restyled the "Press F6 to save Replay" freezecam element to match the screenshot one.
+
+Release 25 - Countdown To The Countdown Edition (4/16/11)
+- Fixed a bug where getting a new item crashed the game.
+- Fixed the Engy and Spy menus not having text.
+
+Release 24 - Hot Hot CExLabel Edition (4/15/11)
+- Updated to work (I hope!) with the latest - and beta - version of TF2.
+- Started re-doing the main menu. Since it currently looks fine on all resolutions, I've removed the 4:3 resolution fix.
+- Made the Trading chat font the same as the normal chat font. Which is to say, it isn't hilariously tiny anymore.
+- You know what sucks? Finding a crash just as you're about to release.
+
+Release 23 - The Quick Fix Edition (3/11/11)
+- Updated the Health element to support the new "Marked for Death" status effect.
+- Fixed the colours on "Genuine" promo weapons (Thanks, Zoolooman!)
+- Updated the Quick-Switch menu to have the scrollbar visible, to reduce confusion.
+- Added a new extra - an alternate Quick-Switch Menu.
+- Note: This will not work with the Beta version of TF2. I know what the problem is and will have a fix ready and waiting for when that stuff hits the normal version.
+
+Release 22 - Rip It Up Edition (2/27/11)
+- Redid the Control Points Objective HUD completely, based off the current Valve code.
+- Fixed things wot broke in the February patch.
+- Added the Promo Codes button to the main menu.
+- Updated the non-widescreen main menu to include all the nice changes I had yet to move over.
+- Fixed the timer.
+- Updated the Extras where applicable.
+- Haven't touched the tourney HUD yet. Anyone interested in hacking around with that?
+
+Release 21 - Up To Snuff Edition (1/20/11)
+- Fixed for the HOM patch.
+
+Release 20 - Ye Bugfixe Edition (12/18/10)
+- Fixed for the Australian Christmas update. I think.
+- New map loading screen.
+
+Release 19 - So Wild International Edition (12/3/10)
+- Made more text use localization translations for better non-English FrankenHUD use.
+- Little cleanups and improvements here and there.
+- Fixed the Simple Spy Disguise menu.
+- Added a special "error-checker" to the Main Menu. If the HUD is installed incorrectly, you'll be told about it. I hope this works!
+
+Release 18 - Poetry Edition (11/24/10)
+- Removed the classic taskbar icon, since Valve basically incorporated the exact same thing officially.
+- Added MORE DROP SHADOWS!!! to the item descriptions.
+- Made the "Level # Weapon Name" text brighter to be more legible.
+- Removed the "Playername is Carrying..." text from the freezecam and spectator versions of the inspection panel, because it wasn't saying anything you couldn't see elsewhere on the screen, and was often overlapped by the item image.
+- Made the "Press F5 to capture this moment!" element in Freezecam smaller and less annoying.
+- Adjusted the Item Pickup Panel to look nicer. A bit.
+- Made a Steam Community group for quicker update announcements! http://steamcommunity.com/groups/frankenhud/
+
+Release 17 - Should Have Been Delayed A Year Edition (11/11/10)
+NOTE: I RECOMMEND A CLEAN INSTALL! Uninstall the old version first for maximum pleasure.
+- Fixed cart outlines? I think? I'm only just seeing them now, and I added a missing HudLayout element, so... Thanks m2pt5!
+- Tweaks and fixes to the scoreboard by Blackbird88. Props to him!
+- Moved the background and game load changes from the last update to a separate extra.
+- Added DROOOOOP SHADOOOOOOOOWS to the map load screen. Also adjusted some values on the righthand box to make it a better size.
+- Added several extras for Windows taskbar icons and classic death notices.
+- Played around with the Build, Destroy and Disguise menus. The Disguise menu is much smaller and placed more out of the way now.
+- Actually added various past fixes that somehow never reached the ZIP file. Durr!
+
+Release 16 - You'll Never Work In This Town Again Edition (11/3/10)
+- Fixed the "X Team Seizes Area!" text on the Winpanel on TC/multistage CP maps being too low.
+- Updated the Main Menu to use the weird new background system.
+- Updated the 4:3 Main Menu to be the same as it's widescreen equivelant.
+- Changed the game-load background to the Xbox 360 game-load background. Beta-tacular!
+- Reskinned the map-load screen!
+
+Release 15 - Imminent Electromechanical Failure Edition (10/23/10)
+Not even a hard drive failure can stop me! At least, not for longer than a day or two.
+- Fixed the Demoman charge bar using the old widescreen alignments instead of the nice universal ones.
+- Fixed chat in trades being invisible (but if you don't like small text, than HOO BOY!)
+- Speaking of which, there's now an optional "large text" file for in-game chat in the TF2-Style Fonts extra that uses the Xbox 360 font sizes.
+- Fixed lazy/bad text alignment on server time limit in the scoreboard.
+- Added an extra that removes the item box from the freezecam.
+- More fixes will come once I've set everything back up.
+
+Release 14 - Renovations Edition (10/17/10)
+- Reverted the freezecam boxes, the ones in Release 12 were, let's face it, kind of crap and had bugs I just couldn't fix. Also, I had somehow revived the broken item box from the pre-Mannconomy update. Gotta love my awful version control!
+- Fixed crits not appearing in the damage numbers, and gave damage numbers their own font definitions for added flexibility.
+- Changes and updates to the TF2-style font definitions. Mostly adding antialiasing to stuff that didn't have it and needed it.
+- Added the missing Milkdrop element to the Health meter.
+- Repaired the Tournament Spectator stuff a bit. Might need more love. Tell me if it does.
+- Betterified the WinPanels. That's a very technical term, I know.
+
+Release 13 - Oops Edition (10/13/10)
+- Fixed the accidental deletion of the freezecam item box.
+- Fixed the forced installation of the TF-style fonts.
+
+Release 12 - One Size Fits All Edition (10/12/10)
+- Redid all the element positioning to be far more resolution-agnostic! Now the Main Menu's the only thing that needs a non-widescreen version. This is a pretty awesome thing as it makes FrankenHUD way more compatible with other resolutions, and thus easier to maintain!
+- Reimplemented the Inspect panel, which I had deliberately broken at some point for some reason I can't really remember.
+- Included the optional TF-style SourceScheme as an Extra, instead of as a forgotten mod on FPSB!
+- Some fiddling to the Quick Item Switch menu.
+- Nicer Nemesis icon and smaller freezecam screenshot popup. Also removed all the unnecessary XBox 360 definitions from the freezecam panel because hey, why the hell not.
+- Increased the width of the large player name on the scoreboard.
+
+Release 11 - Macrotransaction Edition (10/9/10)
+- Shrunk down the Payload HUD again. 4:3 players shouldn't have any trouble with it sitting over the top of their health any more.
+- Updated to work with the new update.
+- Updated the scoreboard to properly incorporate the Duelling scoreboard.
+- Slight retouches to the new HealthAccount thing.
+- Adjustments and improvements to the voice chat IDs, again taken and tweaked from CS Source.
+- M0re-style obituaries. Still not 100% sure about these. Please send feedback.
+- The customised Item Pickup Panel is BACK, baby! Thanks to some horrible, HORRIBLE hackiness (http://tinyurl.com/26bmy25) for ease of previewing.
+
+Release 10 - Both Hands Edition (7/21/10)
+- Revamped the "You Did Better At This Than Your Personal Best" window.
+- Fixed various placement errors in Non-Widescreen mode.
+- Fixed the missing health in the Disguise HUD.
+- Updated the Payload HUD to support the hills in the new maps.
+- Updated the scoreboard to support really long team names, as ESEA players apparently tend to use. Winpanels still look pug-ugly, though.
+- Tweaked the Arena Winpanel to better fit the "Capture By:" caption.
+- Barring some major issue cropping up, this is probably going to be the last release for a while. At least, until the Polycount pack breaks everything.
+
+Release 9 - In Which Kins Realises He Screwed Up Exactly Ten Minutes After Uploading Release 8... Edition (7/13/10)
+- Moved the respawn timer so it isn't under the Spectator TargetID. Durr!
+- Tried an experimental new HUD for Payload Race, in which there's only one bar shared by both teams. It's not perfect, but let me know what you think! (Thanks Jrock455 for planting this idea in my head)
+- Added a drop-shadow to the Spectator tips so they're more legible with minmode 1.
+- REMOVED that goddamn half-health icon at the top of the screen! This is a horrible horrible hacky workaround that I'm frankly ashamed of, but it works great.
+
+Release 8 - Small Things Edition (7/12/10)
+- Added Mac install instructions to the readme (cheers Braden!)
+- TF-Style clientscheme now affects the FreezeCam item description text.
+- Modified the Achievement Progress Tracker slightly. Now the "Best Little Slaughterhouse In Texas" achievement name won't suddenly cut off.
+- Slightly widened the Engineer Revenge Crits counter so that text fits nicer on the standard font.
+- Pushed the TargetID health to the left slightly to fix cutoff on the third digit.
+- Adjusted the CTF and Spectator HUDs to stop overlapping of the respawn timer in One-Flag CTF and Payload Race.
+- Pleases small minds. :v
+
+Release 7 - New Toys Edition (7/10/10)
+- Added Steam Community avatars to the voice chat IDs, ala the CS:Source update!
+- Fixed up the TargetID health to look less awful
+- Readded and altered the little "you can grab this" icon.
+- Moved the TargetIDs lower.
+- Properly FrankenHUD-ised the Engineer's new Revenge Crits counter.
+- Fixed the Arena player count placement. It's back down the bottom now.
+- Tweaked the Quick Switch panel. Now it fits all the Demo melee items without scrolling or cutoff.
+
+Release 6 - BADUNK Edition (7/9/10)
+- Ported to the latest version of TF2. Well, it works anyway. Some things might still need my special sauce.
+- Minor bits of eye-candy for the Team Select.
+- Fixed a bug on the class select menu where the Random button was actually the height of three buttons, blocking the Sniper button from use.
+- Fixed a bug with the non-widescreen main menu on 1280x1024 resolution.
+- Minor adjustments to the Timer and Damage numbers.
+- NO cosmetic shiny baubles of no real significance. I've seen what you PEOPLE do when offered them. This is why we can't have nice things.
+- Vast amounts of swearing when the Steam update automatically deleted several files I hadn't backed up. DAMMIT ASK ME BEFORE DOING THIS
+- A big thanks to everyone who emailed, PMed and commented with bug reports and suggestions!
+
+Release 5 - Coming Out Edition (7/4/10)
+- Fixed some things for our 4:3 cousins.
+- More main menu adjustments.
+- Fixed the numbers popping up in the Team Select, prettied it up a little.
+- Fixed the Arena Team Select's "spectate" button not working. Also prettied it up a little.
+- Brand new Class Select menu! It's so cash.
+- A faint sense of fear regarding how much the Engineer Update will break this.
+- Actually showing this around the internet outside of Facepunch! We're LIVE, baby!
+
+Release 4 - Droppin' It Edition
+- More drop shadows. More! MORE! WHOO-AH-AH-AH-AH
+- Adjusted the Arena Win Panel a little.
+- Adjusted the scoreboard
+- Fixed the titlescreen
+- Moved stuff around in the Widescreen title screen.
+
+Release 3 - Less Franken Edition
+- Adjusted the damage display settings.
+- Added new WinPanel for normal and Arena.
+- Added new Scoreboard
+- Added new Item Get screen
+- Added new MOTD/Mapinfo screen
+- Added new Arena objective display
+- Added a modified version of TF2 Secondary for the TFStyle clientscheme
+- Various little tweaks I forgot.
+
+Release 2 - Shapes and Sizes Edition (13/06/10)
+- Added alternate build for non-widescreen resolution.
+- Made the Ubercharge Bar text less horrible (White with a black outline)
+
+Release 1 - Potentially Buggy As All Get Out Edition (12/06/10)
+- Initial Release
+
+KNOWN BUGS
+----------
+Tournament HUD additions are largely untested. If anything's especially funky looking, please tell me.
+
+HELP! HELP!
+-----------
+Q: TF2 updated, and now the HUD looks weird and broken!
+A: Uninstall the HUD and check for a new version.
+
+Q: Will this work on all resolutions?
+A: It should! If you have a tiny, tiny screen resolution though, you should probably install the Classic Kill Notices extra.
+
+Q: Why isn't everything bundled up next to the crosshair? I can't play TF2 unless everything consists of contextless, backgroundless numbers right next to my crosshair!
+A: There are better huds for that sort of thing. You may also want to see a doctor about your tunnel vision!
+
+Q: I don't like the new MOTD/Map info menu!
+A: Delete MapInfoMenu.res, TextWindow.res and TextWindowCustomServer.res from tf/resource/ui. Sorted!
+
+Q: There's no timer in Arena Mode!
+A: Stop playing Prophunt.
+
+CREDITS AND SOURCES
+-------------------
+Compiled, altered, chopped up and rearranged somewhat unconvincingly by The Kins
+
+Adapted from CommunityTF2Hud:
+
+Team Select Menu (adapted from RevanXP's HUD)
+UberCharge Bar (adapted from PVHud)
+Control Points and Escort Objective Displays adapted from CommunityTF2Hud
+Quickswitch Menu
+
+Adapted from ToastyHUD:
+
+Health Display
+CTF Objective Display
+Tournament HUD (UNTESTED. HALP!)
+Build, Destruct, Disguise menus
+
+Other Adapted HUDdery:
+
+Scoreboard adapted from 32-Player Scoreboard by DanTycoon and DontWannaName
+http://www.fpsbanana.com/guis/20309
+
+"TF2 Modified" HUD from TF2 Chat Font mod by Kernel-Debugger
+(seemingly long lost to Steam forum purging :( )
+
+"Monofonto" freeware font by Ray Larabie.
+
+CONTACT
+-------
+EMAIL: thekins@gmail.com
+WEBSITE: http://kinsie.helloiaminter.net/frankenhud/
+GROUP: http://steamcommunity.com/groups/frankenhud/
+STEAM: http://steamcommunity.com/id/thekins/
