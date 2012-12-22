@@ -1,5 +1,5 @@
-FRANKENHUD RELEASE 42 - FRANKENHUGS EDITION
--------------------------------------------
+FRANKENHUD RELEASE 43 - TOP OF THE WORLD, MA! EDITION
+-----------------------------------------------------
 For Team Fortress 2 by Valve.
 
 INSTALL INSTRUCTIONS - READ THIS, SERIOUSLY
@@ -29,6 +29,12 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 43 - Top of the World, Ma! Edition (3/08/2012)
+- Added Highlander elements to Team Select.
+- Added item meter for the Flying Guillotine.
+- Updated readme contact details.
+- This is an EXCITING update.
+
 Release 42 - FrankenHUGS Edition (28/06/2012)
 Welcome back, old friend. I was gone for a bit, but things are better now.
 - Redid the Main Menu to better fit Valve's precarious, constantly changing preferences.
@@ -353,6 +359,7 @@ http://www.fpsbanana.com/guis/20309
 CONTACT
 -------
 EMAIL: thekins@gmail.com
-WEBSITE: http://kinsie.helloiaminter.net/frankenhud/
+TWITTER: @kinsie
+WEBSITE: http://www.thekinsie.com/frankenhud/
 GROUP: http://steamcommunity.com/groups/frankenhud/
 STEAM: http://steamcommunity.com/id/thekins/

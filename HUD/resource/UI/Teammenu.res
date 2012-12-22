@@ -653,5 +653,109 @@
 		"image"			"progress_bar_blu"
 		"scaleImage"	"1"
 	}		
+
+	"HighlanderLabel" [$WIN32] 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HighlanderLabel"
+		"xpos"			"c-40"
+		"ypos"			"270"
+		"zpos"			"6"
+		"wide"			"75"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Highlander_Mode"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"CapPlayerFont"
+		"fgcolor"		"White"
+		"centerwrap"	"1"
+	}
+	
+	"HighlanderLabelShadow" [$WIN32] 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HighlanderLabelShadow"
+		"xpos"			"c-39"
+		"ypos"			"271"
+		"zpos"			"6"
+		"wide"			"75"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Highlander_Mode"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"CapPlayerFont"
+		"fgcolor"		"black"
+		"centerwrap"	"1"
+	}
+	
+	"TeamsFullLabel" [$WIN32] 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamsFullLabel"
+		"xpos"			"c-40"
+		"ypos"			"290"
+		"zpos"			"6"
+		"wide"			"75"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Teams_Full"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"CapPlayerFontSmall"
+		"fgcolor"		"White"
+		"centerwrap"	"1"
+	}
+	
+	"TeamsFullLabelShadow" [$WIN32] 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamsFullLabelShadow"
+		"xpos"			"c-39"
+		"ypos"			"291"
+		"zpos"			"6"
+		"wide"			"75"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#TF_Teams_Full"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"CapPlayerFontSmall"
+		"fgcolor"		"black"
+		"centerwrap"	"1"
+	}
+
+	"TeamsFullArrow" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamsFullArrow"
+		"xpos"			"9999"
+		"ypos"			"165"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/arrow_big_down"
+		"scaleImage"	"1"	
+	}
 }
+
 
