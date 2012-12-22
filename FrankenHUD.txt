@@ -1,4 +1,4 @@
-FRANKENHUD RELEASE 48 - LUNCH BREAK EDITION
+FRANKENHUD RELEASE 49 - NO WHAMMIES EDITION
 -------------------------------------------
 For Team Fortress 2 by Valve.
 
@@ -29,6 +29,9 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 49 - No Whammies Edition (1/11/12)
+- Fixed the Wheel of Fate display.
+
 Release 48 - Lunch Break Edition (27/10/2012)
 - Added support for Scream Fortress 4.
 - This is pretty much completely untested - I just copied over the changes from the Wiki's patch diff. As a result, the Wheel of Doom HUD stuff might be placed weirdly.

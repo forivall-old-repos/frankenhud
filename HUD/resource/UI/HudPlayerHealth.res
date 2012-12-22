@@ -177,4 +177,20 @@
 		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"6"	
 	}
+
+	"PlayerStatus_WheelOfDoom"
+        {
+                "ControlName"        "ImagePanel"
+                "fieldName"                "PlayerStatus_WheelOfDoom"
+                "xpos"                        "71"
+                "ypos"                        "71"
+                "zpos"                        "7"
+                "wide"                        "30"
+                "tall"                        "30"
+                "visible"                "1"
+                "enabled"                "1"
+                "scaleImage"        "1"        
+                "image"                        "../signs/death_wheel_whammy"
+                "fgcolor"                "TanDark"
+        }
 }
