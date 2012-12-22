@@ -798,7 +798,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		"HudFontSuperGiantBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"46"
+				"tall_lodef"	"54"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudFontBig"
 		{
 			"1"
