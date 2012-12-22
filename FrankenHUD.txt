@@ -1,5 +1,5 @@
-FRANKENHUD RELEASE 45 - SCARS EDITION
--------------------------------------
+FRANKENHUD RELEASE 46 - REMEMBER TO BREATHE EDITION
+---------------------------------------------------
 For Team Fortress 2 by Valve.
 
 INSTALL INSTRUCTIONS - READ THIS, SERIOUSLY
@@ -29,6 +29,13 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 46 - Remember To Breathe Edition (19/08/2012)
+- Fixed the Spy disguise panel's health display being too high up
+- Subtle adjustment to the ammo icon when healing a teammate in MvM
+- Fixed the Classic Death Notices extra
+- Included Valve's default Tournament Setup files for the people who don't understand what "DELETE ANY CURRENT FRANKENHUD INSTALLATION BEFORE INSTALLING" means.
+- Seriously, you guys, sometimes I wonder.
+
 Release 45 - Scars Edition (17/08/2012)
 - Restyled the Buyback feature to fit with the FrankenHUD respawn timer
 - Fixed the respawn timer breaking outside of MvM
