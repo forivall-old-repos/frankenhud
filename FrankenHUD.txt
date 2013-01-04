@@ -1,4 +1,4 @@
-FRANKENHUD RELEASE 51
+FRANKENHUD RELEASE 52
 ---------------------
 For Team Fortress 2 by Valve.
 
@@ -32,6 +32,12 @@ Go to the above-mentioned TF folder, and delete the resource and script folders.
 
 CHANGELOG
 ---------
+Release 52 - Vaccinated Edition (26/12/12)
+- Updated for the Mecha Update - THIS TIME FOR SURE
+- Completely redesigned the Ubercharge meter to allow for the Vaccinator stuff, and to look more consistent with the rest of the HUD
+- Added the Vaccinator resistance icons to the player health meter
+- Fixed the Valve change that caused boss health meters to not appear in MvM (Not my fault, for once)
+
 Release 51 - Merry Whatever (20/12/12)
 - HOPEFULLY updated for the Mecha Update!
 - Tweaked the Status panel in MvM. Now the wave name should look right even on Wave 666. Only, what, four months late!
