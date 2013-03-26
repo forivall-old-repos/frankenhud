@@ -49,6 +49,7 @@ Scheme
 		"HudOffWhite"		"200 187 161 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
+		"HudGreen"          "50 255 50 255"
 		
 		"CreditsGreen"		"94 150 49 255"
 		
