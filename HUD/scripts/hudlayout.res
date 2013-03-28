@@ -230,6 +230,12 @@
 		"tall"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
+
+		if_vr
+		{
+			"ypos"	"370"
+			"x_offset"	"20"
+		}
 	}
 	
 	CSpectatorTargetID
@@ -243,6 +249,12 @@
 		"tall"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
+
+		if_vr
+		{
+			"ypos"	"330"
+			"x_offset"	"20"
+		}
 	}
 	
 	CSecondaryTargetID
