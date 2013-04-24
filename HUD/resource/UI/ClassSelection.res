@@ -1807,15 +1807,15 @@
 		}
 	}
 
-	"ClassInfoPanel"
+	"ClassTipsPanel"
 	{
-		"ControlName"	"CTFClassInfoPanel"
-		"fieldName"		"ClassInfoPanel"
-		"xpos"			"c-150"
-		"ypos"			"295"
+		"ControlName"	"CTFClassTipsPanel"
+		"fieldName"		"ClassTipsPanel"
+		"xpos"			"9999"
+		"ypos"			"c-84"
 		"zpos"			"7"
-		"wide"			"100"
-		"tall"			"30"
+		"wide"			"235"
+		"tall"			"165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
