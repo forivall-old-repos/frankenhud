@@ -1,4 +1,4 @@
-FRANKENHUD RELEASE 52
+FRANKENHUD RELEASE 53
 ---------------------
 For Team Fortress 2 by Valve.
 
@@ -14,24 +14,35 @@ Double click the zip file in Finder to extract the contents to a folder.
 Open the "HUD" folder inside this folder.
 Copy the contents of this folder (not the folder itself!) to user/Library/Application Support/Steam/SteamApps/[your account]/team fortress 2/tf/
 
-Linux:
-I honestly don't know. If you're in the Linux Steam beta, let me know! My email's at the bottom of the readme, as always.
+Linux (Thanks Travis!):
+Extract the zip file using the tool of your choice.
+Open the HUD folder inside this folder.
+Copy the contents of this folder (not the folder itself!) to /home/<your_name>/steam/steamapps/[your steam account]/team fortress 2/tf/
 
 Extras Files:
 Extras are installed in much the same way as the main HUD. Check the readme files in their respective folders to get the details.
 
 Run TF2, exhale, wash your hands.
 
-! ! ! IF THE DAMAGE AND TIMER NUMBERS ARE INVISIBLE, THEN YOU DIDN'T FOLLOW THESE INSTRUCTIONS CORRECTLY AND I WILL IGNORE YOU IF YOU TRY TO REPORT IT BECAUSE I'LL KNOW YOU DIDN'T READ THIS FILE. SERIOUSLY, DON'T DO THIS. TRY AGAIN. MAKE SURE THERE'S A CLIENTSCHEME.RES FILE IN YOUR RESOURCE FOLDER. IF THERE ISN'T, YOU SCREWED UP ! ! !
+! ! ! IF THE DAMAGE AND TIMER NUMBERS ARE INVISIBLE, THEN YOU DIDN'T FOLLOW THESE INSTRUCTIONS CORRECTLY AND I WILL IGNORE YOU IF YOU TRY TO
+REPORT IT BECAUSE I'LL KNOW YOU DIDN'T READ THIS FILE. SERIOUSLY, DON'T DO THIS. TRY AGAIN. MAKE SURE THERE'S A CLIENTSCHEME.RES FILE IN YOUR
+RESOURCE FOLDER. IF THERE ISN'T, YOU SCREWED UP ! ! !
 
-If you see no differences, then check your TF folder for a "HUD" folder and move the files within to your TF folder. Then check yourself in for English classes.
+If you see no differences, then check your TF folder for a "HUD" folder and move the files within to your TF folder.
+Then check yourself in for English classes.
 
 UNINSTALL INSTRUCTIONS
 ----------------------
-Go to the above-mentioned TF folder, and delete the resource and script folders. Don't worry, Steam is smart and powered by science, and will cheerfully restore the default TF2 files.
+Go to the above-mentioned TF folder, and delete the resource and script folders. Don't worry, Steam is smart and powered by science,
+and will cheerfully restore the default TF2 files.
 
 CHANGELOG
 ---------
+Release 53 - Fundamentalist Tourism Edition (28/03/13)
+- Fixed a bug where a small version of the Class Info chalkboard text would appear in the top left corner of the Class Select.
+- Updated the KOTH timers for Valve's new features. I think.
+- Added Linux install instructions to THIS VERY TEXT FILE! WOW-EE!
+
 Release 52 - Vaccinated Edition (26/12/12)
 - Updated for the Mecha Update - THIS TIME FOR SURE
 - Completely redesigned the Ubercharge meter to allow for the Vaccinator stuff, and to look more consistent with the rest of the HUD
@@ -50,7 +61,8 @@ Release 51 - Merry Whatever (20/12/12)
 
 RELEASE 50 - THE BIG FIVE-OH EDITION (5/12/12)
 Jesus, have I really been doing this for two and a half years?
-- Added some Big Picture support! Some things aren't as good as I would prefer (the Class Select in paticular), but Engie and Spy menus work great thanks to earlier work back in Release 33. Thanks to FlaminSarge for the help!
+- Added some Big Picture support! Some things aren't as good as I would prefer (the Class Select in paticular), but Engie and Spy menus work
+  great thanks to earlier work back in Release 33. Thanks to FlaminSarge for the help!
 - I, uh, I probably should have had something cooler ready for Version 50, huh.
 - Oh well. Live and learn, I guess.
 
@@ -59,7 +71,8 @@ Release 49 - No Whammies Edition (1/11/12)
 
 Release 48 - Lunch Break Edition (27/10/2012)
 - Added support for Scream Fortress 4.
-- This is pretty much completely untested - I just copied over the changes from the Wiki's patch diff. As a result, the Wheel of Doom HUD stuff might be placed weirdly.
+- This is pretty much completely untested - I just copied over the changes from the Wiki's patch diff. As a result, the Wheel of Doom HUD
+  stuff might be placed weirdly.
 
 Release 47 - The Biggest Update Ever Edition (24/09/2012)
 - Added the "credits still in-world" MvM HUD element. WOW.
@@ -68,7 +81,8 @@ Release 46 - Remember To Breathe Edition (19/08/2012)
 - Fixed the Spy disguise panel's health display being too high up
 - Subtle adjustment to the ammo icon when healing a teammate in MvM
 - Fixed the Classic Death Notices extra
-- Included Valve's default Tournament Setup files for the people who don't understand what "DELETE ANY CURRENT FRANKENHUD INSTALLATION BEFORE INSTALLING" means.
+- Included Valve's default Tournament Setup files for the people who don't understand what "DELETE ANY CURRENT FRANKENHUD
+  INSTALLATION BEFORE INSTALLING" means.
 - Seriously, you guys, sometimes I wonder.
 
 Release 45 - Scars Edition (17/08/2012)
@@ -86,7 +100,8 @@ DELETE ANY CURRENT FRANKENHUD INSTALLATION BEFORE INSTALLING TO ENSURE THAT NOTH
 - Shifted around the order of some things in HudLayout to match the official HudLayout order for the sake of my sanity
 - Added some HudLayout stuff that had somehow fallen through the cracks over the years
 - Fixed a few tiny things relating to Special Delivery mode
-- This update is brought to you by Sublime Text 2's splitscreen mode, and by TF Wiki not uploading the diffs that would have made my life infinitely easier. Way to be, team!
+- This update is brought to you by Sublime Text 2's splitscreen mode, and by TF Wiki not uploading the diffs that
+  would have made my life infinitely easier. Way to be, team!
 
 Release 43 - Top of the World, Ma! Edition (3/08/2012)
 - Added Highlander elements to Team Select.
@@ -98,7 +113,8 @@ Release 42 - FrankenHUGS Edition (28/06/2012)
 Welcome back, old friend. I was gone for a bit, but things are better now.
 - Redid the Main Menu to better fit Valve's precarious, constantly changing preferences.
 - Subtly shifted the bottom menu buttons to the left so as to actually be centered instead of slightly biased to the right
-- Shoved the "Crit Counter" Item Meter to the side a bit further, so as to avoid overlapping the Pyro's Mmmph meter when using the Grodbort set.
+- Shoved the "Crit Counter" Item Meter to the side a bit further, so as to avoid overlapping the Pyro's Mmmph meter
+  when using the Grodbort set.
 - Updated to fit the Pyromania update! There might still be some issues, though, I haven't exactly tested thoroughly.
 
 Release 41 - Back To Kirkland Edition (16/12/2011)
@@ -111,10 +127,12 @@ Release 40 - An Illusion And A Trap Edition (28/10/2011)
 
 Release 39 - Take U 4 A Ride Edition (21/10/2011)
 Further improvements to the new Class Select menu:
--The Cancel button no longer looks like a "GO!" button from when Valve were experimenting with having the Loadout Preset buttons on the class select.
+-The Cancel button no longer looks like a "GO!" button from when Valve were experimenting with having the Loadout Preset
+ buttons on the class select.
 -The backpack icon greys out nicely instead of just vanishing when Random or Cancel are highlighted.
 -Keyboard shortcuts are re-enabled.
--Lowered the size of the player count numbers, to accomodate the "(MAX #)/(FULL)" label when Class Limits are on. Thanks CraigK for pointing this out!
+-Lowered the size of the player count numbers, to accomodate the "(MAX #)/(FULL)" label when Class Limits are on. Thanks
+ CraigK for pointing this out!
 -Minor tweaks to element positioning that aren't really worth mentioning.
 
 And in the "other crap" catergory...
@@ -132,7 +150,8 @@ Release 38 - All Change! Edition (14/10/2011)
 Release 37 - Sticky Jumped Edition (16/09/2011)
 - Damage popups from healing teammates are now the right colour.
 - Implemented the Hud Message widescreen fix from the September 15 patch.
-- Removed customised Tournament HUD. They have bugs and I have no idea how exactly to go about fixing them easily since I'm not in the comp scene.
+- Removed customised Tournament HUD. They have bugs and I have no idea how exactly to go about fixing them easily since
+ I'm not in the comp scene.
 
 Release 36 - 240 Pages Of Badposting Edition (7/09/2011)
 - Changed the Strange item colour to match the latest patch.
@@ -202,7 +221,8 @@ Release 23 - The Quick Fix Edition (3/11/11)
 - Fixed the colours on "Genuine" promo weapons (Thanks, Zoolooman!)
 - Updated the Quick-Switch menu to have the scrollbar visible, to reduce confusion.
 - Added a new extra - an alternate Quick-Switch Menu.
-- Note: This will not work with the Beta version of TF2. I know what the problem is and will have a fix ready and waiting for when that stuff hits the normal version.
+- Note: This will not work with the Beta version of TF2. I know what the problem is and will have a fix ready and waiting
+  for when that stuff hits the normal version.
 
 Release 22 - Rip It Up Edition (2/27/11)
 - Redid the Control Points Objective HUD completely, based off the current Valve code.
@@ -224,13 +244,15 @@ Release 19 - So Wild International Edition (12/3/10)
 - Made more text use localization translations for better non-English FrankenHUD use.
 - Little cleanups and improvements here and there.
 - Fixed the Simple Spy Disguise menu.
-- Added a special "error-checker" to the Main Menu. If the HUD is installed incorrectly, you'll be told about it. I hope this works!
+- Added a special "error-checker" to the Main Menu. If the HUD is installed incorrectly, you'll be told about it.
+  I hope this works!
 
 Release 18 - Poetry Edition (11/24/10)
 - Removed the classic taskbar icon, since Valve basically incorporated the exact same thing officially.
 - Added MORE DROP SHADOWS!!! to the item descriptions.
 - Made the "Level # Weapon Name" text brighter to be more legible.
-- Removed the "Playername is Carrying..." text from the freezecam and spectator versions of the inspection panel, because it wasn't saying anything you couldn't see elsewhere on the screen, and was often overlapped by the item image.
+- Removed the "Playername is Carrying..." text from the freezecam and spectator versions of the inspection panel, because
+  it wasn't saying anything you couldn't see elsewhere on the screen, and was often overlapped by the item image.
 - Made the "Press F5 to capture this moment!" element in Freezecam smaller and less annoying.
 - Adjusted the Item Pickup Panel to look nicer. A bit.
 - Made a Steam Community group for quicker update announcements! http://steamcommunity.com/groups/frankenhud/
@@ -256,13 +278,15 @@ Release 15 - Imminent Electromechanical Failure Edition (10/23/10)
 Not even a hard drive failure can stop me! At least, not for longer than a day or two.
 - Fixed the Demoman charge bar using the old widescreen alignments instead of the nice universal ones.
 - Fixed chat in trades being invisible (but if you don't like small text, than HOO BOY!)
-- Speaking of which, there's now an optional "large text" file for in-game chat in the TF2-Style Fonts extra that uses the Xbox 360 font sizes.
+- Speaking of which, there's now an optional "large text" file for in-game chat in the TF2-Style Fonts extra that uses
+  the Xbox 360 font sizes.
 - Fixed lazy/bad text alignment on server time limit in the scoreboard.
 - Added an extra that removes the item box from the freezecam.
 - More fixes will come once I've set everything back up.
 
 Release 14 - Renovations Edition (10/17/10)
-- Reverted the freezecam boxes, the ones in Release 12 were, let's face it, kind of crap and had bugs I just couldn't fix. Also, I had somehow revived the broken item box from the pre-Mannconomy update. Gotta love my awful version control!
+- Reverted the freezecam boxes, the ones in Release 12 were, let's face it, kind of crap and had bugs I just couldn't fix. Also, I
+  had somehow revived the broken item box from the pre-Mannconomy update. Gotta love my awful version control!
 - Fixed crits not appearing in the damage numbers, and gave damage numbers their own font definitions for added flexibility.
 - Changes and updates to the TF2-style font definitions. Mostly adding antialiasing to stuff that didn't have it and needed it.
 - Added the missing Milkdrop element to the Health meter.
@@ -274,11 +298,13 @@ Release 13 - Oops Edition (10/13/10)
 - Fixed the forced installation of the TF-style fonts.
 
 Release 12 - One Size Fits All Edition (10/12/10)
-- Redid all the element positioning to be far more resolution-agnostic! Now the Main Menu's the only thing that needs a non-widescreen version. This is a pretty awesome thing as it makes FrankenHUD way more compatible with other resolutions, and thus easier to maintain!
+- Redid all the element positioning to be far more resolution-agnostic! Now the Main Menu's the only thing that needs a non-widescreen
+  version. This is a pretty awesome thing as it makes FrankenHUD way more compatible with other resolutions, and thus easier to maintain!
 - Reimplemented the Inspect panel, which I had deliberately broken at some point for some reason I can't really remember.
 - Included the optional TF-style SourceScheme as an Extra, instead of as a forgotten mod on FPSB!
 - Some fiddling to the Quick Item Switch menu.
-- Nicer Nemesis icon and smaller freezecam screenshot popup. Also removed all the unnecessary XBox 360 definitions from the freezecam panel because hey, why the hell not.
+- Nicer Nemesis icon and smaller freezecam screenshot popup. Also removed all the unnecessary XBox 360 definitions from the freezecam
+  panel because hey, why the hell not.
 - Increased the width of the large player name on the scoreboard.
 
 Release 11 - Macrotransaction Edition (10/9/10)
@@ -301,7 +327,8 @@ Release 10 - Both Hands Edition (7/21/10)
 
 Release 9 - In Which Kins Realises He Screwed Up Exactly Ten Minutes After Uploading Release 8... Edition (7/13/10)
 - Moved the respawn timer so it isn't under the Spectator TargetID. Durr!
-- Tried an experimental new HUD for Payload Race, in which there's only one bar shared by both teams. It's not perfect, but let me know what you think! (Thanks Jrock455 for planting this idea in my head)
+- Tried an experimental new HUD for Payload Race, in which there's only one bar shared by both teams. It's not perfect, but let me know what
+  you think! (Thanks Jrock455 for planting this idea in my head)
 - Added a drop-shadow to the Spectator tips so they're more legible with minmode 1.
 - REMOVED that goddamn half-health icon at the top of the screen! This is a horrible horrible hacky workaround that I'm frankly ashamed of, but it works great.
 
@@ -378,7 +405,8 @@ A: Uninstall the HUD and check for a new version.
 Q: Will this work on all resolutions?
 A: It should! If you have a tiny, tiny screen resolution though, you should probably install the Classic Kill Notices extra.
 
-Q: Why isn't everything bundled up next to the crosshair? I can't play TF2 unless everything consists of contextless, backgroundless numbers right next to my crosshair!
+Q: Why isn't everything bundled up next to the crosshair? I can't play TF2 unless everything consists of contextless, backgroundless numbers
+   right next to my crosshair!
 A: There are better huds for that sort of thing. You may also want to see a doctor about your tunnel vision!
 
 Q: I don't like the new MOTD/Map info menu!

@@ -41,7 +41,7 @@
 		"xpos"	"c-100"
 		"ypos"	"432"
 		"wide"	"200"
-		"tall"	"60"
+		"tall"	"160"
 		
 		"blue_active_xpos"			"0"	
 		"red_active_xpos"			"106"
