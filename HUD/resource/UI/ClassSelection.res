@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"RandomBox"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"270"
 		"zpos"			"1"
 		"wide"			"50"
@@ -42,18 +42,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"random"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c60"
+		"xpos"				"c63"
 		"ypos"				"270"
 		"zpos"				"6"
 		"wide"				"50"
@@ -69,28 +69,28 @@
 		"Default"			"1"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_random_inactive"
 		"image_armed"		"class_sel_sm_random_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -104,14 +104,14 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_random_inactive"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-		
+
 	"ScoutBox"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ScoutBox"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"120"
 		"zpos"			"1"
 		"wide"			"50"
@@ -119,21 +119,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c0"
-		"ypos"				"118"
+		"xpos"				"c5"
+		"ypos"				"121"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -146,30 +146,30 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_scout_inactive"
 		"image_armed"		"class_sel_sm_scout_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" "TanDark"
-			
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -183,14 +183,14 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_scout_inactive"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"SoldierBox"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SoldierBox"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"120"
 		"zpos"			"1"
 		"wide"			"50"
@@ -198,21 +198,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"soldier"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c60"
-		"ypos"				"118"
+		"xpos"				"c63"
+		"ypos"				"121"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -225,30 +225,30 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_soldier_inactive"
 		"image_armed"		"class_sel_sm_soldier_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -262,7 +262,7 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_soldier_inactive"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"PyroBox"
@@ -277,21 +277,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"pyro"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
 		"xpos"				"c120"
-		"ypos"				"118"
+		"ypos"				"121"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -304,29 +304,29 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_pyro_inactive"
 		"image_armed"		"class_sel_sm_pyro_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -340,14 +340,14 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_pyro_inactive"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-	
+
 	"DemoBox"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DemoBox"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"170"
 		"zpos"			"1"
 		"wide"			"50"
@@ -355,21 +355,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"demoman"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c0"
-		"ypos"				"168"
+		"xpos"				"c5"
+		"ypos"				"171"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -382,29 +382,29 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_demo_inactive"
 		"image_armed"		"class_sel_sm_demo_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -418,15 +418,15 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_demo_inactive"
 			"scaleImage"	"1"
-		}				
-	}	
+		}
+	}
 
 
 	"HeavyBox"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HeavyBox"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"170"
 		"zpos"			"1"
 		"wide"			"50"
@@ -434,21 +434,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"heavyweapons"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c60"
-		"ypos"				"168"
+		"xpos"				"c63"
+		"ypos"				"171"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -461,29 +461,29 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_heavy_inactive"
 		"image_armed"		"class_sel_sm_heavy_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -497,8 +497,8 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_heavy_inactive"
 			"scaleImage"	"1"
-		}				
-	}	
+		}
+	}
 
 	"EngiBox"
 	{
@@ -512,21 +512,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"engineer"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
 		"xpos"				"c120"
-		"ypos"				"168"
+		"ypos"				"171"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -539,29 +539,29 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_engineer_inactive"
 		"image_armed"		"class_sel_sm_engineer_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -575,14 +575,14 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_engineer_inactive"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-	
+
 	"MedicBox"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MedicBox"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"220"
 		"zpos"			"1"
 		"wide"			"50"
@@ -590,21 +590,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c0"
-		"ypos"				"218"
+		"xpos"				"c5"
+		"ypos"				"221"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -617,29 +617,29 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_medic_inactive"
 		"image_armed"		"class_sel_sm_medic_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -653,7 +653,7 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_medic_inactive"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 
@@ -661,7 +661,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SniperBox"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"220"
 		"zpos"			"1"
 		"wide"			"50"
@@ -669,21 +669,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c60"
-		"ypos"				"218"
+		"xpos"				"c63"
+		"ypos"				"221"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -696,29 +696,29 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_sniper_inactive"
 		"image_armed"		"class_sel_sm_sniper_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -732,7 +732,7 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_sniper_inactive"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"SpyBox"
@@ -747,21 +747,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
 		"xpos"				"c120"
-		"ypos"				"218"
+		"ypos"				"221"
 		"zpos"				"6"
 		"wide"				"50"
-		"tall"				"50"
+		"tall"				"49"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -774,29 +774,29 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"class_sel_sm_spy_inactive"
 		"image_armed"		"class_sel_sm_spy_inactive"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"1"
 		"keyboardinputenabled"	"1"
 		"selectonhover"		"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -810,14 +810,14 @@
 			"enabled"		"1"
 			"image"			"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
-		}				
-	}	
+		}
+	}
 
 	"LoadoutBox"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"LoadoutBox"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"270"
 		"zpos"			"1"
 		"wide"			"50"
@@ -825,18 +825,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"NoLoadoutButton1"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoLoadoutButton1"
-		"xpos"			"c10"
+		"xpos"			"c15"
 		"ypos"			"280"
 		"zpos"			"5"
 		"wide"			"30"
@@ -851,7 +851,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoLoadoutButton2"
-		"xpos"			"c5"
+		"xpos"			"c10"
 		"ypos"			"275"
 		"zpos"			"1"
 		"wide"			"40"
@@ -866,7 +866,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"EditLoadoutButton"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"270"
 		"zpos"				"6"
 		"wide"				"50"
@@ -882,28 +882,28 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"..\hud\backpack_01_grey"
 		"image_armed"		"..\hud\backpack_01"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"255 255 255 180"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"0"
 		"keyboardinputenabled"	"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -917,7 +917,7 @@
 			"enabled"		"1"
 			"image"			"..\hud\backpack_01"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 
 	"GoBox"
@@ -932,11 +932,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"CancelButton"
@@ -959,28 +959,28 @@
 		"Default"			"1"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		
+
 		"image_default"		"glyph_close_x"
 		"image_armed"		"glyph_close_x"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"		"80 80 80 255"
 		"image_armedcolor"		"200 60 60 255"
 		"image_selectedcolor"	"255 255 255 255"
-		
+
 		"stayselectedonclick"	"0"
 		"keyboardinputenabled"	"1"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -994,9 +994,9 @@
 			"enabled"		"1"
 			"image"			"glyph_close_x"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-	
+
 	"localPlayerImage" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1008,10 +1008,10 @@
 		"tall"			"90"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1026,17 +1026,17 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_brown"
 		"teambg_3"		"../hud/color_panel_brown"
-			
+
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-				
+
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1048,10 +1048,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-	}							
-	
+		"image"			""
+		"scaleImage"	"1"
+	}
+
 	"countImage1" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1063,10 +1063,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage2" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1078,10 +1078,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage3" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1093,10 +1093,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage4" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1108,10 +1108,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage5" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1123,10 +1123,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage6" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1138,10 +1138,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage7" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1153,10 +1153,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage8" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1168,10 +1168,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage9" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1183,10 +1183,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"countImage10" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1198,10 +1198,10 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
-	
+
 	"CountLabel2"
 	{
 		"ControlName"	"CExLabel"
@@ -1226,7 +1226,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"120"
 		"zpos"			"10"
 		"wide"			"50"
@@ -1240,13 +1240,13 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}	
-	
+	}
+
 	"numSoldier" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"120"
 		"zpos"			"10"
 		"wide"			"50"
@@ -1260,8 +1260,8 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}		
-	
+	}
+
 	"numPyro" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
@@ -1280,13 +1280,13 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}			
-	
+	}
+
 	"numDemoman" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"170"
 		"zpos"			"10"
 		"wide"			"50"
@@ -1300,13 +1300,13 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}				
-	
+	}
+
 	"numHeavy" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"170"
 		"zpos"			"10"
 		"wide"			"50"
@@ -1320,8 +1320,8 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}					
-	
+	}
+
 	"numEngineer" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
@@ -1340,13 +1340,13 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}						
-	
+	}
+
 	"numMedic" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"220"
 		"zpos"			"10"
 		"wide"			"50"
@@ -1360,13 +1360,13 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}							
-	
+	}
+
 	"numSniper" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"220"
 		"zpos"			"10"
 		"wide"			"50"
@@ -1380,8 +1380,8 @@
 		"textAlignment"	"east"
 		"font"			"HudFontClassLimit"
 		"fgcolor"		"255 255 0 255"
-	}						
-	
+	}
+
 	"numSpy" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
@@ -1406,7 +1406,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"120"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1416,12 +1416,12 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageSolider"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"120"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1431,11 +1431,11 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
-	"MvMUpgradeImagePyro" 
+
+	"MvMUpgradeImagePyro"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImagePyro" 
+		"fieldName"		"MvMUpgradeImagePyro"
 		"xpos"			"c120"
 		"ypos"			"120"
 		"zpos"			"10"
@@ -1446,12 +1446,12 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
-	"MvMUpgradeImageDemoman" 
+
+	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageDemoman" 
-		"xpos"			"c0"
+		"fieldName"		"MvMUpgradeImageDemoman"
+		"xpos"			"c5"
 		"ypos"			"170"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1461,12 +1461,12 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageHeavy"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"c60"
+		"fieldName"		"MvMUpgradeImageHeavy"
+		"xpos"			"c63"
 		"ypos"			"170"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1476,7 +1476,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageEngineer"
 	{
 		"ControlName"	"ImagePanel"
@@ -1491,12 +1491,12 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageMedic"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"220"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1506,12 +1506,12 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageSniper"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"c60"
+		"xpos"			"c63"
 		"ypos"			"220"
 		"zpos"			"10"
 		"wide"			"10"
@@ -1521,7 +1521,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageSpy"
 	{
 		"ControlName"	"ImagePanel"
@@ -1550,7 +1550,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-170"
 		"end_y"			"115"
@@ -1559,7 +1559,7 @@
 		"callout_inparents_x"	"c-270"
 		"callout_inparents_y"	"40"
 		"next_explanation"		"VoucherExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1578,7 +1578,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1597,7 +1597,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1621,13 +1621,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -1643,7 +1643,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 	}
 
@@ -1659,13 +1659,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"		
+		"teambg_3"		"../hud/color_panel_blu"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"BGDimmer"
@@ -1674,19 +1674,19 @@
 		"fieldName"		"BGDimmer"
 		"xpos"			"c-155"
 		"ypos"			"c-120"
-		"zpos"			"5"		
+		"zpos"			"4"
 		"wide"			"150"
 		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"			
+		"scaleImage"		"1"
 		"src_corner_height"		"23"
-		"src_corner_width"		"23"			
+		"src_corner_width"		"23"
 		"draw_corner_width"		"5"
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
-	
+
 	"TeamName"
 	{
 		"ControlName"	"CExLabel"
@@ -1725,23 +1725,23 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
-		
-		"xpos"			"c-154"
-		"ypos"			"c-118"
-		"zpos"			"6"		
-		"wide"			"147"
-		"tall"			"197"
-		
+
+		"xpos"			"c-264"
+		"ypos"			"c-193"
+		"zpos"			"11"
+		"wide"			"367"
+		"tall"			"347"
+
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"render_texture"        "0"
-		"fov"			"25"
+		"fov"			"40"
 		"allow_rot"		"0"
 
-		"paintbackground" "1"		
+		"paintbackground" "1"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
 
@@ -1752,17 +1752,17 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "170"
+			"origin_x" "240"
 			"origin_y" "0"
 			"origin_z" "-40"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
-			"vcd"		"class_select.vcd"		
-			
+			"vcd"		"class_select.vcd"
+
 			"animation"
 			{
 				"name"		"PRIMARY"
@@ -1793,20 +1793,35 @@
 			{
 				"name"		"ITEM1"
 				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
+			}
 			"animation"
 			{
 				"name"		"ITEM2"
 				"activity"	"ACT_MP_STAND_ITEM2"
-			}	
+			}
 			"animation"
 			{
 				"name"		"MELEE_ALLCLASS"
 				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}								
+			}
 		}
 	}
 
+//	"ClassInfoPanel"
+//	{
+//		"ControlName"	"CTFClassInfoPanel"
+//		"fieldName"		"ClassInfoPanel"
+//		"xpos"			"c-150"
+//		"ypos"			"295"
+//		"zpos"			"7"
+//		"wide"			"100"
+//		"tall"			"30"
+//		"autoResize"	"0"
+//		"pinCorner"		"0"
+//		"visible"		"0"
+//		"enabled"		"1"
+//		"tabPosition"	"0"
+//	}
 	"ClassTipsPanel"
 	{
 		"ControlName"	"CTFClassTipsPanel"
@@ -1821,5 +1836,5 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-	}									
+	}
 }
