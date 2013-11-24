@@ -90,10 +90,10 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"	"c138" //"r246"
+		"xpos"	"c134" //"r246"
 		"ypos"	"r10"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"65"
+		"wide"			"68"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -215,7 +215,7 @@
 		"xpos"	"c-250" //c0
 		"ypos"	"320"
 		"wide"		"500"
-		"tall"		"320"
+		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
 	}
 
@@ -267,6 +267,12 @@
 		"wide"	 	"252"
 		"tall"	 	"28"
 		"priority"	"35"
+
+		if_vr
+		{
+			"ypos"		"330"
+			"x_offset"	"20"
+		}
 	}
 	
 	BuildingStatus_Spy
@@ -1309,5 +1315,18 @@
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
+	}
+
+	"CTFKillStreakNotice"
+        {
+		"fieldName"                "CTFKillStreakNotice"
+		"xpos"                        "0"                        
+		"ypos"                        "0"
+		"wide"                        "640"
+		"tall"                        "480"
+		"visible"                "1"
+		"enabled"                "1"
+		"bgcolor_override"        "0 0 0 0"
+		"PaintBackgroundType"        "0" // rounded corners
 	}
 }
