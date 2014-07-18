@@ -39,9 +39,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-100"
-		"ypos"	"432"
+		"ypos"	"r48"
 		"wide"	"200"
-		"tall"	"160"
+		"tall"	"55"
 
 		"blue_active_xpos"			"0"
 		"red_active_xpos"			"106"
@@ -66,7 +66,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"	"c115" //"r274"
-		"ypos"	"r47"
+		"ypos"	"r35"
 		"wide"			"500"
 		"tall"			"100"
 	}
@@ -977,7 +977,7 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"r233"
+		"xpos"			"r143"
 		"ypos"			"195"
 		"wide"			"150"
 		"tall"			"140"
@@ -1013,7 +1013,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-160"
-		"ypos"					"65"
+		"ypos"					"80"
 		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
@@ -1177,9 +1177,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r40"
+		"ypos"					"r50"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"30"
 	}
 
 	"HudAchievementTracker"
@@ -1337,6 +1337,18 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible"		"0"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"40"
+		"tall"			"40"
+		"priority"		"40"
 	}
 
 	"HudMenuTauntSelection"

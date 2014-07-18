@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-335"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"c-195"	[$WIN32]
+		"ypos"			"r54"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -23,9 +21,8 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"34"
-		"tall"			"30"
+		"tall"			"14"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -37,6 +34,19 @@
 
 		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"6"
+	}
+
+	"KillStreakIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"12"
+		"ypos"			"0"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/dneg_leaderboard_streak"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -50,7 +60,7 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KillStreak"
@@ -67,11 +77,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -87,20 +94,39 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"10"
-		"ypos_minmode"			"3"
-		"ypos"					"3"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"34"
+		"tall"					"14"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontSmall"
+		"font"					"HudFontSmallBold"
+		"fgColor"	"255 255 255 255"
+	}
+	"ItemEffectMeterCount2"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount2"
+		"xpos"					"11"
+		"ypos"					"1"
+		"zpos"					"2"
+		"wide"					"34"
+		"tall"					"14"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"east"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"HudFontSmallBold"
+		"fgColor"	"black"
 	}
 }
